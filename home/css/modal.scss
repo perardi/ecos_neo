@@ -1,0 +1,119 @@
+/* ------------ LIGHTBOX ------------ */
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 900;
+	display: none;
+}
+
+.modal{
+	display: none;
+	background:#eeeeee;
+	padding: 0;
+	z-index:1001;
+	position: absolute;
+	width: 475px;
+	height: 495px;
+	margin: 0 auto;
+	border: 4px solid #999999;
+}
+
+.error{
+	margin-left: 10px;
+ 	width: 90%;
+    padding: 0;
+    color: #db0000;
+}
+
+.closebox {
+	margin-left: 3px;
+	margin-top: -2px;
+}
+
+.modal_close {
+	height:26px;
+}
+
+#modal_div_content {
+	height: 469px;
+}
+#log_me_in {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 15px 10px 15px;	
+	height: 349px;
+	overflow-y: auto;	
+}
+
+.modal_content{
+ 	overflow-y: auto;
+	margin-top: 10px;
+	height: 375px;	
+}
+
+#log_me_in h2 {
+	font-weight: 100;
+	color: #006699;
+	margin-left: 10px;
+	font-size: 200%;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+a.signup_link, a.signup_link:visited {
+	color: #0099cc;
+	text-decoration: underline;
+	margin-left: 14px;
+}
+
+a.signup_link:hover {
+	color: #006699;
+	text-decoration: underline;
+}
+
+#sign_up_footer {
+	width: 100%;
+	height: 100px;
+	background-color: #f6f6f6;
+	position: absolute;
+	text-align: center;
+}
+
+#sign_up_footer p {
+	line-height: 0;
+	padding: 10px 0 10px 0;
+	font-size: 110%;
+}
+
+#sign_up_footer a {
+	font-size: 140%;
+	color: #0099cc;
+	text-decoration: underline;
+	line-height: 0;
+}
+
+.inputtxt {
+	margin-left: 10px;
+	width: 85%;
+	margin-bottom: 10px;
+}
+
+.inputtxtNoWidth {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+a.closeBtn, a.closeBtn:visited {
+	float: right;
+	font-size: 90%;
+	color: #0099cc;
+	text-decoration: none;
+}
+
+a.closeBtn:hover {
+	color: #006699;
+}

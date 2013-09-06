@@ -1,0 +1,23 @@
+{% include head.html %}
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+			<div class="overlay"></div>
+			<!-- ************************************************* BEGIN LOGIN OVERLAY ************************************************* -->
+			{% include lightbox.html %}
+			<!-- ************************************************* END LOGIN OVERLAY ************************************************* -->
+			</div>
+			{% include about_nav.html %}
+        </div>
+		
+        <div class="main-container about_wrap">
+	
+	
+	{{ content }}
+	
+        </div>
+		
+{% include footer.html %}

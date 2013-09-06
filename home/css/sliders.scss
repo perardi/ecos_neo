@@ -1,0 +1,40 @@
+ul.slidesjs-pagination {
+  	margin: 0 auto;
+	background-color: #006699;
+	padding: 0;
+	list-style: none;
+    height: 30px;
+	text-align: center;
+	padding-top: 7px;
+	padding-left: 490px;
+}
+
+.slidesjs-pagination li {
+  margin-right: 10px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  background-repeat: none;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+.navbar {
+  overflow: hidden
+}
